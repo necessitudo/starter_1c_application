@@ -39,7 +39,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   fluent_ui: ^3.12.0
   window_manager: ^0.2.5
-  easy_localization: ^3.0.1
+  http: ^0.13.4
 
 dev_dependencies:
   flutter_test:
@@ -64,9 +64,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
-  #   - assets/translations/
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/1c_logo.png
+    - assets/images/Infinity-1s-200px.gif
   generate: true
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
